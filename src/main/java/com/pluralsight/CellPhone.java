@@ -51,10 +51,11 @@ public class CellPhone {
         this.owner = owner;
     }
 
-    public String dial(String _phoneNum){
-        return this.owner + "'s Phone is calling " + _phoneNum;
+    public void dial(String _phoneNum) {
 
+        System.out.println(this.owner + "'s Phone is calling " + _phoneNum);
     }
+
 
 
 

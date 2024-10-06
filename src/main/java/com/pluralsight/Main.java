@@ -32,25 +32,22 @@ public class Main {
         System.out.println("Phone Number: " + phone.getPhoneNum());
         System.out.println("Owner: " + phone.getOwner());
 
-        String call = phone.dial(phone.getPhoneNum());
-
-        System.out.println(call);
-
+        phone.dial(phone.getPhoneNum());
 
         CellPhone num1 = new CellPhone();
         num1.setPhoneNum("602-369-5185");
         num1.getOwner();
+        num1.setOwner("Steve Harvey");
 
         CellPhone num2 = new CellPhone();
         num2.setPhoneNum("702-234-2343");
         num2.setOwner("Lori Harvey");
 
-
         display(num1);
         display(num2);
 
-        System.out.println(phone.getOwner() + num1.dial(num2.getPhoneNum()));
-        System.out.println(num2.dial(num1.getPhoneNum()));
+        num1.dial(num2.getPhoneNum());
+        num2.dial(num1.getPhoneNum());
         //System.out.println(num2.dial(num2.getOwner() + num1.getPhoneNum()));
 
     }
