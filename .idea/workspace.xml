@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4762788b-2a29-497a-a4ce-99ad3b7d8b7e" name="Changes" comment="phone info holder, with dialing code">
+    <list default="true" id="4762788b-2a29-497a-a4ce-99ad3b7d8b7e" name="Changes" comment="More clean precise code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/CellPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/CellPhone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,12 +76,21 @@
       <option name="project" value="LOCAL" />
       <updated>1728254106353</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="More clean precise code">
+      <option name="closed" value="true" />
+      <created>1728257046628</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1728257046628</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="phone info holder, with dialing code" />
-    <option name="LAST_COMMIT_MESSAGE" value="phone info holder, with dialing code" />
+    <MESSAGE value="More clean precise code" />
+    <option name="LAST_COMMIT_MESSAGE" value="More clean precise code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
